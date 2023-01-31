@@ -1,0 +1,6 @@
+type DrumMachine @model {
+  id: ID!
+  clientId: ID!
+  beats: String!
+  name: String!
+}
